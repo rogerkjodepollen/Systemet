@@ -183,7 +183,7 @@ std::string Server::generatePrintableString(size_t length) {
     return randomString;
 }
 
-void Server::addUser(const char* username, const char* password,char* about) {
+void Server::addUser(const char* username, const char* password,const char* about) {
 
     std::cout << "Add user" << std::endl;
 

@@ -37,7 +37,7 @@ public:
 
 	std::string generatePrintableString(size_t length);
 
-	static void addUser(const char* username, const char* password,char* about);
+	static void addUser(const char* username, const char* password,const char* about);
 
 	//static EVP_PKEY* loadPrivateKey();
 

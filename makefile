@@ -11,7 +11,7 @@ SRCS = main.cpp graphics_base.cpp base_window.cpp panel_window.cpp text_window.c
 
 BAKENDENSRC = ./Bakenden/main.cpp ./Bakenden/server.cpp
 
-HEMMELIGSRC = ./Hemmelig/main.cpp ./Hemmelig/randgen.cpp
+HEMMELIGSRC = ./Hemmelig/randgen.cpp
 
 systemet: $(SRCS)
 	$(CXX) -o $@ $(WARNINGS) $(DEBUG) $(OPTIMIZE) $(STANDARD) $(SRCS) $(LINKER)
