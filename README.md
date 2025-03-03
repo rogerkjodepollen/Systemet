@@ -1,4 +1,10 @@
 # Systemet
+
+A open source healthcare archiving system with own gui system in c++ and a tto be implemented crypto database.
+
+A simple start
+
+
 Eit Open-Source alternativ til helseplatformen
 
 Ingen lisens i det heile

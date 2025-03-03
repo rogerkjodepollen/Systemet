@@ -1,14 +1,18 @@
 #include <iostream>
+#include <stdio.h>
+#include <unistd.h>
 
-#include "graphics_base.h"
+#include "server.h"
 
 
 using namespace std;
 
-int main(int argc, char* argv[])
+int main()
 {
-        
-    GraphicsBase* grapicsBase = new GraphicsBase(argc,argv);
+
+    Server* server = new Server();
+
+    server->startServer();
 
     return 0;
 }
